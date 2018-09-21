@@ -1,5 +1,4 @@
-var express = require("express");
-var app = express();
+const app = require("./src/app");
 
 const PORT = process.env.PORT || 5000;
 
