@@ -4,12 +4,15 @@ describe("encode function", () => {
   it("should return an empty string when given an empty string", () => {
     expect(encode("")).toBe("");
   });
-  it("should return the same character when given a string of one character", () => {
+
+  it("should return the same character when given one character", () => {
     expect(encode("0")).toBe("0");
   });
-  it("should swap the first and second character when given a two character string", () => {
+
+  it("should swap first and second characters when given two", () => {
     expect(encode("XY")).toBe("YX");
   });
+
   it("should return the same word once given a palindrome", () => {
     expect(encode("ryksuguskyr")).toBe("ryksuguskyr");
   });
