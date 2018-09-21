@@ -1,0 +1,29 @@
+{
+  "name": "alias",
+  "version": "1.0.0",
+  "description": "The decoder/encoder of your dreams",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugpro/alias.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nodejs",
+    "expressjs",
+    "url-shortener"
+  ],
+  "author": "Skúli Arnlaugsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugpro/alias/issues"
+  },
+  "homepage": "https://github.com/hugpro/alias#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
