@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
+    "watch": "jest --watchAll",
     "dev": "nodemon --inspect server.js"
   },
   "repository": {
@@ -15,8 +16,7 @@
     "node",
     "express",
     "nodejs",
-    "expressjs",
-    "url-shortener"
+    "expressjs"
   ],
   "author": "Skúli Arnlaugsson",
   "license": "ISC",
