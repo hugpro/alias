@@ -19,8 +19,13 @@ describe("GET /generate/:string ", () => {
     expect(res.status).toBe(200);
   });
 
-  it("should return a JSON with the encoded string", async () => {
+  it("should return a JSON with a value attribute", async () => {
     const res = await request(app).get("/generate/test");
     expect(Object.keys(res.body)).toEqual(["value"]);
+  });
+
+  it("should return a JSON with the a non-empty encoded string", async () => {
+    const res = await request(app).get("/generate/test");
+    expect(Object.values(res.body)).toHaveLength(1);
   });
 });
