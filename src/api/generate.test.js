@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("./app");
+const app = require("../app");
 
 describe("GET /generate without a string", () => {
   it("should return a 404 status code", async () => {
@@ -9,7 +9,7 @@ describe("GET /generate without a string", () => {
 
   it("should return an error with a description", async () => {
     const res = await request(app).get("/generate");
-    expect(res.body).toEqual({ error: "Not found" });
+    expect(res.body).toEqual({ error: "No value given to encode" });
   });
 });
 
