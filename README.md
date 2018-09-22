@@ -8,11 +8,11 @@ This project uses [Node.js][node], [Express.js][express] for it's building block
 
 0. Install dependencies, `npm install`
 1. Start server
-   a) Start development server with [Nodemon][nodemon] `npm run dev`
-   b) Start server `npm start`
+    - Start development server with [Nodemon][nodemon] `npm run dev`
+    - Start server `npm start`
 1. Run tests
-   a) Once: `npm test`
-   b) On every code change: `npm run watch`
+    - Once: `npm test`
+    - On every code change: `npm run watch`
 
 ## API
 
