@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/hugpro/alias.svg?branch=master)](https://travis-ci.com/hugpro/alias)
+
 # alias
 
 This project uses the verb definition of "alias", which is to "misidentify (a signal frequency), introducing distortion or error". Given a string, return another string that is a _distorted_ version of the original string.
